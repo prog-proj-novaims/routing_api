@@ -1,4 +1,5 @@
 
+  
 from pydantic import BaseModel
 from typing import Optional
 from datetime import datetime
@@ -20,9 +21,7 @@ class PostUpdate (PostBase):
 
 #controlling the response
 
-class Post (PostBase): # inherite from PostBase
+class User (PostBase): # inherite from PostBase
     id : int
     created_at: datetime
- 
-  
    
